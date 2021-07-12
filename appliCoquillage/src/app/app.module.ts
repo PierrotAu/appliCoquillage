@@ -14,7 +14,7 @@ import { AngularFireStorageModule } from "@angular/fire/storage";
 
 export const firebaseConfig = {
     apiKey: "AIzaSyC08oU2z8dr1TFiQSGXJtozuSsG5FBbI5E",
-    authDomain: "fabrik-bb98f.firebaseapp.com",
+    authDomain: "https://fabrik-bb98f-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "fabrik-bb98f",
     storageBucket: "fabrik-bb98f.appspot.com",
     messagingSenderId: "545313494223",

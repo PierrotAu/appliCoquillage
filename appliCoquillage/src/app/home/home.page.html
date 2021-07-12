@@ -18,3 +18,13 @@
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>
+
+<ion-item>
+  <ion-label>Text:</ion-label>
+  <ion-input [(ngModel)]="firebaseText" type="text" placeholder="Entrez du texte"></ion-input>
+  <ion-button (click)="addFirestore()" expand="block">Ajouter</ion-button>
+</ion-item>
+
+<ion-item *ngFor="let item of items | async">
+  <ion-label>{{ item.text }}</ion-label>
+</ion-item>
